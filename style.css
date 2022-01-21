@@ -42,3 +42,13 @@
     opacity: 0.8;
 
 }
+
+h1{
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 100px;
+    margin: 20px;
+    padding: 6px;
+}
