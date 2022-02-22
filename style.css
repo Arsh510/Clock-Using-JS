@@ -1,13 +1,15 @@
-
+*{
+    background: url(bg.jpg) no-repeat;
+}
 #clock-container{
     position: relative;
     background: url(clock.png) no-repeat;
-    /* filter: invert(100%); */
+    filter: invert(100%);
     /* border: 2px solid black; */
     margin: auto;
     height: 40vw;
     width: 40vw;
-    background-size: 100%;
+    background-size: 100%;   
 }
 
 #hour, #min, #second{
@@ -43,12 +45,12 @@
 
 }
 
-h1{
+h3{
     font-family: 'Sedgwick Ave', cursive;
     text-align: center;
     text-decoration: underline;
     color: black;
-    font-size: 50px;
+    /* font-size: 100px; */
     margin: 20px;
     padding: 6px;
 }
